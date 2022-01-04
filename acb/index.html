@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+
+</head>
+<body>
+    <body onload="thongbaopopup()"></body>
+    <div class="tbpopup" id="tbpopup-1">
+        <div class="tboverlay"></div>
+        <div class="tbcontent">
+        <div class="tbclose-btn" onclick="thongbaopopup()">&times;</div>
+        <div style="font-size:30px;font-weight:bold">Xin chào</div>
+        <p>Cảm ơn bạn đã ghé thăm trang web của mình, chúc bạn một ngày mới vui vẽ và tràn đầy hạnh phúc!</p>
+        </div>
+        </div>
+    <div id="body">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">LOGO</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Trang Chủ <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Dự Án</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link" href="#" id="navbarDropdown">
+          Dịch Vụ Đi Kèm
+        </a>
+        <div class="dropdown-content">
+          <a class="dropdown-item" href="#">Thiết Kế Web Theo Yêu Cầu</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Chọn mua web có sẵn</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Themes</a>
+        </div>
+<!--         <ul class="dropdown-content">
+        	<li class="dropdown-item"><a href="">item 1</a></li>
+        	<li class="dropdown-item"><a href="">item 1</a></li>
+        	<li class="dropdown-item"><a href="">item 1</a></li>
+        </ul> -->
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Liên Hệ</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<header class="masthead">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-7 py-5">
+                <h1 class="mb-4">Chào bạn, web của chúng tôi luôn cung cấp các loại website thiết kế theo yêu cầu hoặc dã được thiết kế sãn</h1>
+                <h2 class="m-0">Dược Phục Vụ Bạn Là niềm vinh hạnh của công ty chúng tôi <a href="/themes"></a>, <a href="/templates"><a href="/snippets"><a href="/guides"></h2>
+            </div>
+            <div class="col-lg-5">
+                <div class="py-5 px-4 masthead-cards">
+                    <div class="d-flex">
+                        <a href="#" class="w-50 pr-3 pb-4">
+                            <div class="card border-0 border-bottom-red shadow-lg shadow-hover">
+                                <div class="card-body text-center">
+                                    <div class="text-center">
+                                        <i class="fa fa-home fa-4x my-2"></i>
+                                    </div>
+                                    Themes
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="w-50 pl-3 pb-4">
+                            <div class="card border-0 border-bottom-blue shadow-lg shadow-hover">
+                                <div class="card-body text-center">
+                                    <div class="text-center">
+                                        <i class="fa fa-th fa-4x my-2"></i>
+                                    </div>
+                                    Templates
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="d-flex">
+                        <a href="#" class="w-50 pr-3">
+                            <div class="card border-0 border-bottom-yellow shadow-lg shadow-hover">
+                                <div class="card-body text-center">
+                                    <div class="text-center">
+                                        <i class="fa fa-4x fa-code my-2"></i>
+                                    </div>
+                                    Snippets
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="w-50 pl-3">
+                            <div class="card border-0 border-bottom-green shadow-lg shadow-hover">
+                                <div class="card-body text-center">
+                                    <div class="text-center">
+                                        <i class="fa fa-4x fa-list my-2"></i>
+                                    </div>
+                                    Guides
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="shape"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <svg style="pointer-events: none" class="wave" width="100%" height="50px" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 75">
+        <defs>
+            <style>
+                .a {
+                    fill: none;
+                }
+                
+                .b {
+                    clip-path: url(#a);
+                }
+                
+                .c,
+                .d {
+                    fill: #f9f9fc;
+                }
+                
+                .d {
+                    opacity: 0.5;
+                    isolation: isolate;
+                }
+            </style>
+            <clipPath id="a">
+                <rect class="a" width="1920" height="75"></rect>
+            </clipPath>
+        </defs>
+        <title>wave</title>
+        <g class="b">
+            <path class="c" d="M1963,327H-105V65A2647.49,2647.49,0,0,1,431,19c217.7,3.5,239.6,30.8,470,36,297.3,6.7,367.5-36.2,642-28a2511.41,2511.41,0,0,1,420,48"></path>
+        </g>
+        <g class="b">
+            <path class="d" d="M-127,404H1963V44c-140.1-28-343.3-46.7-566,22-75.5,23.3-118.5,45.9-162,64-48.6,20.2-404.7,128-784,0C355.2,97.7,341.6,78.3,235,50,86.6,10.6-41.8,6.9-127,10"></path>
+        </g>
+        <g class="b">
+            <path class="d" d="M1979,462-155,446V106C251.8,20.2,576.6,15.9,805,30c167.4,10.3,322.3,32.9,680,56,207,13.4,378,20.3,494,24"></path>
+        </g>
+        <g class="b">
+            <path class="d" d="M1998,484H-243V100c445.8,26.8,794.2-4.1,1035-39,141-20.4,231.1-40.1,378-45,349.6-11.6,636.7,73.8,828,150"></path>
+        </g>
+    </svg>
+</header>
+    </div>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+<div class="container">
+    <ul class="row portfolio lightbox list-unstyled mb-0 shuffle boxed-portfolio" id="grid" >
+        <!-- project -->
+        <li class="col-md-6 col-lg-4 project shuffle-item filtered" >
+            <div class="card mb-0">
+                <div class="project m-0">
+                    <figure class="portfolio-item">
+                        <div class="hovereffect">
+                            <img class="img-responsive" src="https://via.placeholder.com/350x180/E6E6FA/000000" alt="">
+                            <div class="overlay">
+                                <div class="hovereffect-title project-icons">
+                                    <a href="#x" data-toggle="modal" data-target=".project-modal2"><i class="fa fa-eye"></i></a>
+                                    <a href="#" class="image-lightbox" title="STATIONERY"><i class="fa fa-share"></i></a>
+                                </div>
+                                <!-- / project-icons -->
+                            </div>
+                            <!-- / overlay -->
+                        </div>
+                        <!-- / hovereffect -->
+                    </figure>
+                    <!-- / portfolio-item -->
+                </div>
+                <!-- / project -->
+                <div class="card-body">
+                    <a href="single-project2.html" class="card-title title-link fs-16 fw-bold">STATIONERY</a>
+                    <p class="card-text mt-5 mb-0 fs-14"><b>Skills:</b> Branding, Illustration</p>
+                </div>
+                <!-- / card-body -->
+            </div>
+            <!-- / card -->
+        </li>
+        <!-- / project -->
+
+        <!-- project -->
+        <li class="col-md-6 col-lg-4 project shuffle-item filtered" >
+            <div class="card mb-0">
+                <div class="project m-0">
+                    <figure class="portfolio-item">
+                        <div class="hovereffect">
+                            <img class="img-responsive" src="https://via.placeholder.com/350x180/FFF0F5/000000" alt="">
+                            <div class="overlay">
+                                <div class="hovereffect-title project-icons">
+                                    <a href="#x" data-toggle="modal" data-target=".project-modal"><i class="fa fa-eye"></i></a>
+                                    <a href="#" class="image-lightbox" title="FOIL LOGO"><i class="fa fa-share"></i></a>
+                                </div>
+                                <!-- / project-icons -->
+                            </div>
+                            <!-- / overlay -->
+                        </div>
+                        <!-- / hovereffect -->
+                    </figure>
+                    <!-- / portfolio-item -->
+                </div>
+                <!-- / project -->
+                <div class="card-body">
+                    <a href="single-project2.html" class="card-title title-link fs-16 fw-bold">FOIL LOGO</a>
+                    <p class="card-text mt-5 mb-0 fs-14"><b>Skills:</b> Design, Branding</p>
+                </div>
+                <!-- / card-body -->
+            </div>
+            <!-- / card -->
+        </li>
+        <!-- / project -->
+
+        <!-- project -->
+        <li class="col-md-6 col-lg-4 project shuffle-item filtered" >
+            <div class="card mb-0">
+                <div class="project m-0">
+                    <figure class="portfolio-item">
+                        <div class="hovereffect">
+                            <img class="img-responsive" src="https://via.placeholder.com/350x180/87CEFA/000000" alt="">
+                            <div class="overlay">
+                                <div class="hovereffect-title project-icons">
+                                    <a href="#x" data-toggle="modal" data-target=".project-modal3"><i class="fa fa-eye"></i></a>
+                                    <a href="#" class="image-lightbox" title="IDEA BULB"><i class="fa fa-share"></i></a>
+                                </div>
+                                <!-- / project-icons -->
+                            </div>
+                            <!-- / overlay -->
+                        </div>
+                        <!-- / hovereffect -->
+                    </figure>
+                    <!-- / portfolio-item -->
+                </div>
+                <!-- / project -->
+                <div class="card-body">
+                    <a href="single-project2.html" class="card-title title-link fs-16 fw-bold">IDEA BULB</a>
+                    <p class="card-text mt-5 mb-0 fs-14"><b>Skills:</b> Design, Illustration</p>
+                </div>
+                <!-- / card-body -->
+            </div>
+            <!-- / card -->
+        </li>
+        <!-- / project -->
+
+        <!-- project -->
+        <li class="col-md-6 col-lg-4 project shuffle-item filtered" >
+            <div class="card mb-0">
+                <div class="project m-0">
+                    <figure class="portfolio-item">
+                        <div class="hovereffect">
+                            <img class="img-responsive" src="https://via.placeholder.com/350x180/FFB6C1/000000" alt="">
+                            <div class="overlay">
+                                <div class="hovereffect-title project-icons">
+                                    <a href="#x" data-toggle="modal" data-target=".project-modal3"><i class="fa fa-eye"></i></a>
+                                    <a href="#" class="image-lightbox" title="MOUNTAINS"><i class="fa fa-share"></i></a>
+                                </div>
+                                <!-- / project-icons -->
+                            </div>
+                            <!-- / overlay -->
+                        </div>
+                        <!-- / hovereffect -->
+                    </figure>
+                    <!-- / portfolio-item -->
+                </div>
+                <!-- / project -->
+                <div class="card-body">
+                    <a href="single-project2.html" class="card-title title-link fs-16 fw-bold">MOUNTAINS</a>
+                    <p class="card-text mt-5 mb-0 fs-14"><b>Skills:</b> Design, Illustration</p>
+                </div>
+                <!-- / card-body -->
+            </div>
+            <!-- / card -->
+        </li>
+        <!-- / project -->
+
+        <!-- project -->
+        <li class="col-md-6 col-lg-4 project shuffle-item filtered" >
+            <div class="card mb-0">
+                <div class="project m-0">
+                    <figure class="portfolio-item">
+                        <div class="hovereffect">
+                            <img class="img-responsive" src="https://via.placeholder.com/350x180/FFA07A/000000" alt="">
+                            <div class="overlay">
+                                <div class="hovereffect-title project-icons">
+                                    <a href="#x" data-toggle="modal" data-target=".project-modal2"><i class="fa fa-eye"></i></a>
+                                    <a href="#" class="image-lightbox" title="HELLO WORLD"><i class="fa fa-share"></i></a>
+                                </div>
+                                <!-- / project-icons -->
+                            </div>
+                            <!-- / overlay -->
+                        </div>
+                        <!-- / hovereffect -->
+                    </figure>
+                    <!-- / portfolio-item -->
+                </div>
+                <!-- / project -->
+                <div class="card-body">
+                    <a href="single-project2.html" class="card-title title-link fs-16 fw-bold">HELLO WORLD</a>
+                    <p class="card-text mt-5 mb-0 fs-14"><b>Skills:</b> Branding</p>
+                </div>
+                <!-- / card-body -->
+            </div>
+            <!-- / card -->
+        </li>
+        <!-- / project -->
+
+        <!-- project -->
+        <li class="col-md-6 col-lg-4 project shuffle-item filtered" >
+            <div class="card mb-0">
+                <div class="project m-0">
+                    <figure class="portfolio-item">
+                        <div class="hovereffect">
+                            <img class="img-responsive" src="https://via.placeholder.com/350x180/B0C4DE/000000" alt="">
+                            <div class="overlay">
+                                <div class="hovereffect-title project-icons">
+                                    <a href="#x" data-toggle="modal" data-target=".project-modal"><i class="fa fa-eye"></i></a>
+                                    <a href="#" class="image-lightbox" title="CAMERON"><i class="fa fa-share"></i></a>
+                                </div>
+                                <!-- / project-icons -->
+                            </div>
+                            <!-- / overlay -->
+                        </div>
+                        <!-- / hovereffect -->
+                    </figure>
+                    <!-- / portfolio-item -->
+                </div>
+                <!-- / project -->
+                <div class="card-body">
+                    <a href="single-project2.html" class="card-title title-link fs-16 fw-bold">CAMERON</a>
+                    <p class="card-text mt-5 mb-0 fs-14"><b>Skills:</b> Design</p>
+                </div>
+                <!-- / card-body -->
+            </div>
+            <!-- / card -->
+        </li>
+        <!-- / project -->
+
+        <li class="col-md-6 col-lg-4 project shuffle-item filtered" >
+            <div class="card mb-0">
+                <div class="project m-0">
+                    <figure class="portfolio-item">
+                        <div class="hovereffect">
+                            <img class="img-responsive" src="https://via.placeholder.com/350x180/FFA07A/000000" alt="">
+                            <div class="overlay">
+                                <div class="hovereffect-title project-icons">
+                                    <a href="#x" data-toggle="modal" data-target=".project-modal3"><i class="fa fa-eye"></i></a>
+                                    <a href="#" class="image-lightbox" title="WHALE"><i class="fa fa-share"></i></a>
+                                </div>
+                                <!-- / project-icons -->
+                            </div>
+                            <!-- / overlay -->
+                        </div>
+                        <!-- / hovereffect -->
+                    </figure>
+                    <!-- / portfolio-item -->
+                </div>
+                <!-- / project -->
+                <div class="card-body">
+                    <a href="single-project2.html" class="card-title title-link fs-16 fw-bold">WHALE</a>
+                    <p class="card-text mt-5 mb-0 fs-14"><b>Skills:</b> Design, Illustration</p>
+                </div>
+                <!-- / card-body -->
+            </div>
+            <!-- / card -->
+        </li>
+        <!-- / project -->
+
+        <!-- project -->
+        <li class="col-md-6 col-lg-4 project shuffle-item filtered" >
+            <div class="card mb-0">
+                <div class="project m-0">
+                    <figure class="portfolio-item">
+                        <div class="hovereffect">
+                            <img class="img-responsive" src="https://via.placeholder.com/350x180/B0C4DE/000000" alt="">
+                            <div class="overlay">
+                                <div class="hovereffect-title project-icons">
+                                    <a href="#x" data-toggle="modal" data-target=".project-modal2"><i class="fa fa-eye"></i></a>
+                                    <a href="#" class="image-lightbox" title="BRANDING"><i class="fa fa-share"></i></a>
+                                </div>
+                                <!-- / project-icons -->
+                            </div>
+                            <!-- / overlay -->
+                        </div>
+                        <!-- / hovereffect -->
+                    </figure>
+                    <!-- / portfolio-item -->
+                </div>
+                <!-- / project -->
+                <div class="card-body">
+                    <a href="single-project2.html" class="card-title title-link fs-16 fw-bold">BRANDING</a>
+                    <p class="card-text mt-5 mb-0 fs-14"><b>Skills:</b> Branding</p>
+                </div>
+                <!-- / card-body -->
+            </div>
+            <!-- / card -->
+        </li>
+        <!-- / project -->
+
+        <!-- project -->
+        <li class="col-md-6 col-lg-4 project shuffle-item filtered" >
+            <div class="card mb-0">
+                <div class="project m-0">
+                    <figure class="portfolio-item">
+                        <div class="hovereffect">
+                            <img class="img-responsive" src="https://via.placeholder.com/350x180/66CDAA/000000" alt="">
+                            <div class="overlay">
+                                <div class="hovereffect-title project-icons">
+                                    <a href="#x" data-toggle="modal" data-target=".project-modal3"><i class="fa fa-eye"></i></a>
+                                    <a href="#" class="image-lightbox" title="HYMALAYAS"><i class="fa fa-share"></i></a>
+                                </div>
+                                <!-- / project-icons -->
+                            </div>
+                            <!-- / overlay -->
+                        </div>
+                        <!-- / hovereffect -->
+                    </figure>
+                    <!-- / portfolio-item -->
+                </div>
+                <!-- / project -->
+                <div class="card-body">
+                    <a href="single-project2.html" class="card-title title-link fs-16 fw-bold">HYMALAYAS</a>
+                    <p class="card-text mt-5 mb-0 fs-14"><b>Skills:</b> Design, Illustration</p>
+                </div>
+                <!-- / card-body -->
+            </div>
+            <!-- / card -->
+        </li>
+        <!-- / project -->
+
+        <!-- project -->
+        <li class="col-md-6 col-lg-4 project shuffle-item filtered" >
+            <div class="card mb-0">
+                <div class="project m-0">
+                    <figure class="portfolio-item">
+                        <div class="hovereffect">
+                            <img class="img-responsive" src="https://via.placeholder.com/350x180/9370DB/000000" alt="">
+                            <div class="overlay">
+                                <div class="hovereffect-title project-icons">
+                                    <a href="#x" data-toggle="modal" data-target=".project-modal3"><i class="fa fa-eye"></i></a>
+                                    <a href="#" class="image-lightbox" title="CUPCAKE"><i class="fa fa-share"></i></a>
+                                </div>
+                                <!-- / project-icons -->
+                            </div>
+                            <!-- / overlay -->
+                        </div>
+                        <!-- / hovereffect -->
+                    </figure>
+                    <!-- / portfolio-item -->
+                </div>
+                <!-- / project -->
+                <div class="card-body">
+                    <a href="single-project2.html" class="card-title title-link fs-16 fw-bold">CUPCAKE</a>
+                    <p class="card-text mt-5 mb-0 fs-14"><b>Skills:</b> Design, Illustration</p>
+                </div>
+                <!-- / card-body -->
+            </div>
+            <!-- / card -->
+        </li>
+        <!-- / project -->
+
+        <!-- project -->
+        <li class="col-md-6 col-lg-4 project shuffle-item filtered" >
+            <div class="card mb-0">
+                <div class="project m-0">
+                    <figure class="portfolio-item">
+                        <div class="hovereffect">
+                            <img class="img-responsive" src="https://via.placeholder.com/350x180/48D1CC/000000" alt="">
+                            <div class="overlay">
+                                <div class="hovereffect-title project-icons">
+                                    <a href="#x" data-toggle="modal" data-target=".project-modal2"><i class="fa fa-eye"></i></a>
+                                    <a href="#" class="image-lightbox" title="BRANDMINUTE"><i class="fa fa-share"></i></a>
+                                </div>
+                                <!-- / project-icons -->
+                            </div>
+                            <!-- / overlay -->
+                        </div>
+                        <!-- / hovereffect -->
+                    </figure>
+                    <!-- / portfolio-item -->
+                </div>
+                <!-- / project -->
+                <div class="card-body">
+                    <a href="single-project2.html" class="card-title title-link fs-16 fw-bold">BRANDMINUTE</a>
+                    <p class="card-text mt-5 mb-0 fs-14"><b>Skills:</b> Branding</p>
+                </div>
+                <!-- / card-body -->
+            </div>
+            <!-- / card -->
+        </li>
+        <!-- / project -->
+
+        <!-- project -->
+        <li class="col-md-6 col-lg-4 project shuffle-item filtered" >
+            <div class="card mb-0">
+                <div class="project m-0">
+                    <figure class="portfolio-item">
+                        <div class="hovereffect">
+                            <img class="img-responsive" src="https://via.placeholder.com/350x180/FFE4E1/000000" alt="">
+                            <div class="overlay">
+                                <div class="hovereffect-title project-icons">
+                                    <a href="#x" data-toggle="modal" data-target=".project-modal"><i class="fa fa-eye"></i></a>
+                                    <a href="#" class="image-lightbox" title="PREMIUM LOGO"><i class="fa fa-share"></i></a>
+                                </div>
+                                <!-- / project-icons -->
+                            </div>
+                            <!-- / overlay -->
+                        </div>
+                        <!-- / hovereffect -->
+                    </figure>
+                    <!-- / portfolio-item -->
+                </div>
+                <!-- / project -->
+                <div class="card-body">
+                    <a href="single-project2.html" class="card-title title-link fs-16 fw-bold">PREMIUM LOGO</a>
+                    <p class="card-text mt-5 mb-0 fs-14"><b>Skills:</b> Design, Branding</p>
+                </div>
+                <!-- / card-body -->
+            </div>
+            <!-- / card -->
+        </li>
+        <!-- / project -->
+    </ul>
+    <!-- / portfolio -->
+</div>
+<!-- Load jquery trước khi load bootstrap js -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+<section class="section gray-bg" id="contactus">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="section-title">
+                    <h2>Vẫn Đang update nha các bé</h2>
+                    <p>soncoder</p>
+                </div>
+            </div>
+        </div>
+        <div class="row flex-row-reverse">
+            <div class="col-md-7 col-lg-8 m-15px-tb">
+                <div class="contact-form">
+                     <form action="/" method="post" class="contactform contact_form" id="contact_form">
+                        <div class="returnmessage valid-feedback p-15px-b" data-success="Your message has been received, We will contact you soon."></div>
+                        <div class="empty_notice invalid-feedback p-15px-b"><span>Please Fill Required Fields</span></div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input id="name" type="text" placeholder="Full Name" class="form-control"> 
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input id="email" type="text" placeholder="Email Address" class="form-control">  
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <input id="subject" type="text" placeholder="Subject" class="form-control"> 
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <textarea id="message" placeholder="Message" class="form-control" rows="3"></textarea> 
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="send">
+                                    <a id="send_message" class="px-btn theme" href="#"><span>Liên Hệ</span> <i class="arrow"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-5 col-lg-4 m-15px-tb">
+                <div class="contact-name">
+                    <h5>Mail</h5>
+                    <p>soncode@dev.com</p>
+                </div>
+                <div class="contact-name">
+                    <h5>Dịa Chỉ</h5>
+                    <p>Phúc Chu - Định Hóa, <br>Thái Nguyên</p>
+                </div>
+                <div class="contact-name">
+                    <h5>Phone</h5>
+                    <p>+84333</p>
+                </div>
+                <div class="social-share nav">
+                    <a class="dribbble" href="#">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a class="behance" href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a class="linkedin" href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
