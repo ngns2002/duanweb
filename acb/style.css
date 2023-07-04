@@ -655,7 +655,7 @@ body{
    transform:translate(-50%,-50%) scale(0);
    background:#fff;
    max-width:500px;
-   z-index:2;
+   z-index:99999;
    text-align:center;
    padding:20px;
    box-sizing:border-box;
